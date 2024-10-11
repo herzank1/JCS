@@ -10,12 +10,13 @@ Libreria para facilitar el almacenamientos de objetos java en sqlite
 
 1 Agrega la dependencia a tu proyecto maven
 
+/*
 <dependency>
     <groupId>com.monge</groupId>
     <artifactId>JCS</artifactId>
     <version>1.0-SNAPSHOT</version>
 </dependency>
-
+*/
 2 crea una instancia de la base de datos e ingresa el nombre de tu base de datos
 
 DataBase db = new DataBase();

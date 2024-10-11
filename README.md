@@ -1,5 +1,12 @@
-# JCS
+# JCS by Herzank el monge.686
 Libreria para facilitar el almacenamientos de objetos java en sqlite
+
+*Genera tablas automaticamente en caso de que no existan, las tablas se deberan llamar conforme al nombre en plural de la clase
+*Usa java reflective para crear las columnas de las tablas conforme a los campos de la clase
+*variables del tipo String, Date y ArrayList se guardan en TEXTO, 
+*los arraylist se guardan en formato TEXTO Json.
+*int como INTEGER
+*double como REAL
 
 1 Agrega la dependencia a tu proyecto maven
 
